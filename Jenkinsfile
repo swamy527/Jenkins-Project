@@ -13,12 +13,17 @@ pipeline {
         }
         stage('How') {
             steps {
-                echo 'Hello World'
+                echo 'Here how stage executed'
             }
         }
         stage('where') {
             steps {
-                echo 'Hello World'
+                echo 'Here where stage executed'
+            }
+        }
+        stage('when') {
+            steps {
+                echo 'Here when stage executed'
             }
         }
     }
